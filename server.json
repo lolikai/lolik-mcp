@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
   "name": "io.github.lolikai/lolik-mcp",
   "title": "Lolik Trend Radar",
-  "description": "Live trend → money-ready intelligence as MCP tools: trends, forecasts, virality scores, opportunities, hooks and a daily what-to-post brief with honest confidence labels.",
+  "description": "Live trends → money-ready intelligence: forecasts, virality scores, opportunities, daily briefs.",
   "repository": {
     "url": "https://github.com/lolikai/lolik-mcp",
     "source": "github"
@@ -15,7 +15,9 @@
       "registryBaseUrl": "https://registry.npmjs.org",
       "identifier": "@lolikai/mcp",
       "version": "0.3.2",
-      "transport": { "type": "stdio" },
+      "transport": {
+        "type": "stdio"
+      },
       "environmentVariables": [
         {
           "name": "LOLIK_API_KEY",
