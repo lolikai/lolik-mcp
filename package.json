@@ -2,10 +2,10 @@
   "name": "@lolikai/mcp",
   "version": "0.3.2",
   "mcpName": "io.github.lolikai/lolik-mcp",
-  "description": "Lolik Trend Radar MCP server \u2014 live trend \u2192 money-ready intelligence as MCP tools for Claude and agents. Every tool call uses your Lolik API key (auth + credits + rate limits).",
+  "description": "Lolik Trend Radar MCP server — live trend → money-ready intelligence as MCP tools for Claude and agents. Every tool call uses your Lolik API key (auth + credits + rate limits).",
   "type": "module",
   "bin": {
-    "lolik-mcp": "./index.mjs"
+    "lolik-mcp": "index.mjs"
   },
   "files": [
     "LICENSE",
